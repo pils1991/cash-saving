@@ -12,7 +12,9 @@ import org.springframework.context.annotation.Import;
         AnnotationConfig.class,
         RepositoryConfig.class,
         DaoConfig.class,
-        MailConfig.class
+        MailConfig.class,
+        WebConfig.class,
+        WebFlowConfig.class
 })
 public class SpringConfiguration {
 }
